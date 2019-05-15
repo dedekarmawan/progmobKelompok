@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DestinasiWisataBali</string>
+    <string name="title_activity_dashboard">Destinasi Wisata Bali</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Destinasi Wisata Bali</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_search">Search</string>
+    <string name="tentang">Tentang</string>
+    <string name="kategori">Kategori</string>
+    <string name="sampul">Sampul</string>
+    <string name="favorite">Favorite</string>
+    <string name="hubungikami">Hubungi Kami</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="beranda">Beranda</string>
+    <string name="tentang_app">Aplikasi ini merupakan tugas project dari Kelompok 5 Pemrograman Mobile B.</string>
+    <string name="kontak">
+        Telp: +6281234567xxx \nEmail: gmail@kelompok5.com
+    </string>
+    <string name="deskripsi_bahasa">
+        Bahasa yang tersedia pada versi ini yaitu:
+        \n- Indonesia
+        \n- English\n\n
+    </string>
+    <string name="bahasa_saat_ini">Bahasa saat ini:</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+
+</resources>

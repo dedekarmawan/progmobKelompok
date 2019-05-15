@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DashboardActivity"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_home"
+        android:src="@drawable/gwkberanda"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_category"
+        android:layout_below="@id/image_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_list_kabupaten">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
