@@ -13,4 +13,5 @@
         tools:listitem="@layout/item_list_kabupaten">
 
     </android.support.v7.widget.RecyclerView>
+
 </RelativeLayout>
