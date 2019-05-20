@@ -21,6 +21,7 @@ public class Buleleng extends AppCompatActivity {
         list.addAll(BulelengData.getListData());
         showRecyclerList();
     }
+
     private void showRecyclerList(){
         rvCategory.setLayoutManager(new LinearLayoutManager(this));
         ListKabupatenAdapter listKabupatenAdapter = new ListKabupatenAdapter(this);

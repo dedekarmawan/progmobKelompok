@@ -24,9 +24,9 @@
         android:text="@string/ganti_bahasa"/>
 
     <TextView
-    android:id="@+id/tv_bahasa_saat_ini"
+        android:id="@+id/tv_bahasa_saat_ini"
         android:layout_below="@+id/btn_ganti_bahasa"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/bahasa_saat_ini" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bahasa_saat_ini" />
 </RelativeLayout>
