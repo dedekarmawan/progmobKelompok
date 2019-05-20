@@ -9,15 +9,19 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context=".TentangActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="215dp"
+        android:layout_height="400dp"
         android:src="@drawable/melasti" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tentang_app" />
+        android:text="@string/tentang_app"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:padding="5dp"/>
 </LinearLayout>

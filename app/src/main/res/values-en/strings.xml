@@ -15,9 +15,13 @@
     <string name="hubungikami">Contact Us</string>
     <string name="bahasa">Language</string>
     <string name="beranda">Dashboard</string>
-    <string name="tentang_app">This application is a project assignment from group 5 of Mobile Programming class.</string>
-    <string name="kontak">
-        Call: +6281234567xxx \nEmail: gmail@kelompok5.com
+    <string name="tentang_app">DESTINASI WISATA BALI\n
+        The Destinasi Wisata Bali application is an application offered for those made to make it easier for tourists to get information on attractive tourist destinations on the Island of the Gods.
+        This application is made simple so that it is easy to use for the general public.\n\n
+        In addition, the purpose of making this application is to complete the Mobile Programming course that we are running this year.
+    </string>
+    <string name="kontak">More information you can, contact us at a convenient time for you and we will answer all your questions.\n
+        Call: +6281234567890 \nEmail: gmail@kelompok5.com
     </string>
     <string name="deskripsi_bahasa">
         The languages available in this version are:
