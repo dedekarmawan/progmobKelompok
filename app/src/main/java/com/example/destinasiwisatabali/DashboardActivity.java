@@ -126,7 +126,8 @@ public class DashboardActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_kategori){
-
+            Intent moveIntent = new Intent(DashboardActivity.this, KategoriActivity.class);
+            startActivity(moveIntent);
         }
 //        else if (id == R.id.nav_favorite) {
 //
