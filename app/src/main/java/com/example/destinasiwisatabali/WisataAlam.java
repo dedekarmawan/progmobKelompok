@@ -1,7 +1,7 @@
 package com.example.destinasiwisatabali;
 
 public class WisataAlam {
-    private String name, remarks, photo;
+    private String name, remarks, photo, detail, lokasi;
 
     public String getName() {
         return name;
@@ -25,5 +25,21 @@ public class WisataAlam {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
+
+    public String getLokasi() {
+        return lokasi;
+    }
+
+    public void setLokasi(String lokasi) {
+        this.lokasi = lokasi;
     }
 }

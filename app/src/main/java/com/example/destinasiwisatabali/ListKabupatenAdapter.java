@@ -1,6 +1,7 @@
 package com.example.destinasiwisatabali;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -38,13 +39,26 @@ public class ListKabupatenAdapter extends RecyclerView.Adapter<ListKabupatenAdap
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CategoryViewHolder categoryViewHolder, int position) {
+    public void onBindViewHolder(@NonNull CategoryViewHolder categoryViewHolder, final int position) {
         categoryViewHolder.tvName.setText(getListWisata().get(position).getNama());
         categoryViewHolder.tvRemarks.setText(getListWisata().get(position).getDeskripsi());
         Glide.with(context)
                 .asBitmap()
                 .load(getListWisata().get(position).getPhoto())
                 .into(categoryViewHolder.imgPhoto);
+        categoryViewHolder.imgPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("image_url",getListWisata().get(position).getPhoto());
+                intent.putExtra("image_name",getListWisata().get(position).getNama());
+                intent.putExtra("image_desc",getListWisata().get(position).getDetail());
+                intent.putExtra("image_address", getListWisata().get(position).getLokasi());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

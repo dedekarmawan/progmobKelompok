@@ -29,9 +29,7 @@ public class Bangli extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         showRecyclerList();
-
     }
-
     private void setActionBarTitle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }
@@ -44,7 +42,6 @@ public class Bangli extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
     }

@@ -32,9 +32,7 @@ public class MainActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         showRecyclerList();
-
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }

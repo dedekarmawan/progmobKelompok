@@ -29,9 +29,9 @@ public class Klungkung extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+
         showRecyclerList();
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }

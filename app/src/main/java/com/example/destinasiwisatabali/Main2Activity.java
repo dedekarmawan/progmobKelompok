@@ -31,7 +31,6 @@ public class Main2Activity extends AppCompatActivity {
         }
         showRecyclerList();
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }

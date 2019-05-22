@@ -30,7 +30,6 @@ public class Jembrana extends AppCompatActivity {
         }
         showRecyclerList();
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }
@@ -55,3 +54,4 @@ public class Jembrana extends AppCompatActivity {
         rvCategory.setAdapter(listKabupatenAdapter);
     }
 }
+

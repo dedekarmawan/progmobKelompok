@@ -26,6 +26,7 @@
         <activity android:name=".BahasaActivity" />
         <activity android:name=".KontakActivity" />
         <activity android:name=".TentangActivity" />
+        <activity android:name=".DetailActivity" />
         <activity
             android:name=".DashboardActivity"
             android:label="@string/title_activity_dashboard"

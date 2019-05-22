@@ -43,7 +43,6 @@ public class Buleleng extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
     private void showRecyclerList(){
         rvCategory.setLayoutManager(new LinearLayoutManager(this));
         ListKabupatenAdapter listKabupatenAdapter = new ListKabupatenAdapter(this);
@@ -51,3 +50,4 @@ public class Buleleng extends AppCompatActivity {
         rvCategory.setAdapter(listKabupatenAdapter);
     }
 }
+

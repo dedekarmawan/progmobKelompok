@@ -30,7 +30,6 @@ public class Gianyar extends AppCompatActivity {
         }
         showRecyclerList();
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }

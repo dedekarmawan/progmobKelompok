@@ -1,6 +1,7 @@
 package com.example.destinasiwisatabali;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -38,13 +39,26 @@ public class ListReligiAdapter extends RecyclerView.Adapter<ListReligiAdapter.Ca
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ListReligiAdapter.CategoryViewHolder categoryViewHolder, int position) {
+    public void onBindViewHolder(@NonNull ListReligiAdapter.CategoryViewHolder categoryViewHolder, final int position) {
         categoryViewHolder.tvName.setText(getListReligi().get(position).getName());
         categoryViewHolder.tvRemarks.setText(getListReligi().get(position).getRemarks());
         Glide.with(context)
                 .asBitmap()
                 .load(getListReligi().get(position).getPhoto())
                 .into(categoryViewHolder.imgPhoto);
+        categoryViewHolder.imgPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("image_url",getListReligi().get(position).getPhoto());
+                intent.putExtra("image_name",getListReligi().get(position).getName());
+                intent.putExtra("image_desc",getListReligi().get(position).getDetail());
+                intent.putExtra("image_address", getListReligi().get(position).getLokasi());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

@@ -14,10 +14,12 @@ public class Tabanan extends AppCompatActivity {
     String tittle = "Tabanan";
     private RecyclerView rvCategory;
     private ArrayList<Wisata> list = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabanan);
+
         rvCategory = findViewById(R.id.badung);
         rvCategory.setHasFixedSize(true);
 
@@ -30,7 +32,6 @@ public class Tabanan extends AppCompatActivity {
         }
         showRecyclerList();
     }
-
     private void setActionBarTittle(String tittle) {
         getSupportActionBar().setTitle(tittle);
     }

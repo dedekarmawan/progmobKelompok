@@ -54,3 +54,4 @@ public class BahasaActivity extends AppCompatActivity implements View.OnClickLis
         }
     }
 }
+
